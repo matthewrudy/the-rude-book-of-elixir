@@ -1,0 +1,2 @@
+% The Rude Book of Elixir
+% Matthew Rudy Jacobs
