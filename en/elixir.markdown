@@ -13,8 +13,21 @@ The latest source of this book is available at:
 
 For years we've all known that concurrency was important. We probably started trying to use Erlang, but it was so unfriendly we turned away. Then we tried Scala, but it was a bit too much like Java to feel comfortable.
 
+Later Rubinius added the Actors, and people started looking at ways of implementing decent concurrency in Ruby.
+
+But always you knew that Ruby wasn't the right tool.
+
+Luckily José Valim has finally come along and given birth to Elixir - the love child of Erlang and Ruby.
+
 # Getting Started #
 
-I'm not going to patronise you.
+To get Elixir installed I suggest you just go on (the Elixir website)[http://elixir-lang.org/getting_started/1.html]
 
-Just `brew install elixir`!
+But if you're on a mac, the current incantation is;
+
+  brew tap homebrew/versions
+  brew unlink erlang
+  brew install erlang-r16
+  brew install elixir
+
+Hopefully in the future just `brew install elixir` will be fine, but right now we're stuck installing the latest erlang.
