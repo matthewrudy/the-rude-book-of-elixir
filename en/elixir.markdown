@@ -21,7 +21,7 @@ Luckily José Valim has finally come along and given birth to Elixir - the love 
 
 # Getting Started #
 
-To get Elixir installed I suggest you just go on (the Elixir website)[http://elixir-lang.org/getting_started/1.html]
+To get Elixir installed I suggest you just go on [the Elixir website](http://elixir-lang.org/getting_started/1.html)
 
 But if you're on a mac, the current incantation is;
 
